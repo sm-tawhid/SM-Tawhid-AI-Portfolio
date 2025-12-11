@@ -1,66 +1,47 @@
-# License Plate Detector
+# AI Math Tutor – Rule-Based Algebra Assistant
+**Course:** ITAI-2376 – Deep Learning  
+**Student:** SM Tawhid  
 
-## Team Members
-SM Tawhid – w211161582@student.hccs.edu
+---
 
-## Project Tier
-Tier 1: Beginner Computer Vision project using Google Colab.  
-This tier fits because it uses a single pre-trained YOLOv8 model for object detection with a small, publicly available dataset and minimal compute requirements.
+## Project Overview
+This project implements a lightweight AI Math Tutor capable of solving beginner algebra equations and generating practice quizzes.  
+The system uses rule-based logic with symbolic algebra parsing to interpret and solve expressions such as:
 
-## Problem Statement
-Identifying vehicle license plates manually is slow and inconsistent.  
-Traffic monitoring systems and parking management platforms need a fast, automated way to detect license plates accurately from images or video frames.
+- `x + 4 = 9`  
+- `2x = 12`  
+- `x - 3 = 5`
 
-## Solution Overview
-This project trains and evaluates a YOLOv8-based object detection model to automatically locate license plates in vehicle images.  
-The model will draw bounding boxes around detected plates and measure accuracy using standard detection metrics.
+It also includes a quiz mode that generates random math questions and evaluates user answers.
 
-## Technical Approach
-CV Technique: Object Detection  
-Model: YOLOv8  
-Framework: PyTorch  
-Why this approach: YOLOv8 provides a lightweight, high-accuracy object detector that can be fine-tuned easily in Google Colab using modest GPU resources.
+---
 
-## Dataset
-Source: Roboflow Universe – License Plate Recognition Dataset  
-Size: 10,125 images  
-Labels: Single class (“license_plate”)  
-Link: https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e
+## Key Features
+- Solves single-variable linear equations  
+- Supports user interaction via text prompts  
+- Quiz mode with auto-grading  
+- Real-time feedback and validation  
+- Beginner-friendly AI agent design  
 
-## Success Metrics
-Primary Metric: mAP50  
-Target: ≥ 0.85  
-Secondary Metrics: Precision > 0.90 | Recall > 0.85 | Processing speed > 10 FPS (on Colab GPU)
+---
 
-## Week-by-Week Plan
-Week 10: Finalize proposal and slides  
-Week 11: Configure Colab + import dataset  
-Week 12: Fine-tune YOLOv8n model  
-Week 13: Evaluate results + visualize detections  
-Week 14: Build demo notebook + record demo video  
-Week 15: Present project + submit final repo
+## Technologies Used
+- Python 3.10+  
+- Jupyter Notebook  
+- `sympy` for solving equations  
+- `random` for quiz question generation  
+- `re` for pattern matching and parsing  
 
-## Resources Needed
-Compute: Google Colab Free GPU (Tesla T4)  
-Cost: $0
+---
 
-## Risks & Mitigation
-| Risk | Probability | Mitigation |
-|---|---|---|
-| Colab GPU runtime limit | Medium | Use fast training (1–3 epochs) |
-| Dataset imbalance	|	Medium | Use Roboflow augmentations |
-| Slow training speed	| Low |	Reduce image size and batch size |
+## How to Run
+1. Open `AI_Math_Tutor_Agent.ipynb` in Jupyter or Google Colab  
+2. Run all cells from top to bottom  
+3. At the prompt `"You:"`, type a math expression or choose quiz mode  
+4. Type `"quit"` to exit the program  
 
-## AI Usage Log
-Located in: docs/AI_usage_log.md
+---
 
-## Current Status
-Repository created ✅  
-Proposal written ✅  
-Dataset acquired ✅  
-Model training started ✅  
-Demo created ✅  
-Final presentation ready ✅  
-
-## Demo Video
-https://drive.google.com/file/d/1ZwqmqU3RljPGlTRI4W5Lt6BXo8L6-GBR/view?usp=drive_link
+## Purpose
+This project demonstrates how simple rule-based AI can be used to support learning environments.  
+It provides a foundation for more advanced NLP or deep learning tutoring systems.
