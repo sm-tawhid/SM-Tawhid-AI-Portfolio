@@ -5,12 +5,16 @@ I am an Applied AI student at Houston Community College, specializing in compute
 
 This portfolio represents my learning journey through the AI & Robotics program, highlighting hands-on projects that demonstrate my ability to analyze problems, design AI workflows, and build functional machine learning prototypes. I am continually working to expand my skills in model development, data processing, and embedded AI applications.
 
+---
+
 ## Technical Skills
 - Computer Vision: OpenCV, YOLOv8, image preprocessing
 - Deep Learning: PyTorch, model evaluation, basic AI agents
 - Programming: Python, Jupyter Notebook
 - AI Concepts: Object detection, rule-based NLP, algebra logic
 - Tools: Google Colab, Jupyter Notebook, GitHub
+
+---
 
 ## Featured AI Projects
 
@@ -28,6 +32,8 @@ This portfolio represents my learning journey through the AI & Robotics program,
 **Course:** ITAI 2374 – Robot Operating Systems & Platforms  
 - Demonstrates inference using a pretrained YOLO model, visualizing bounding boxes and analyzing detections.  
 - Highlights foundational skills in image processing and AI pipelines within robotics.
+
+---
 
 ### Contact
 Email: tawhid.atul@gmail.com  
