@@ -1,10 +1,9 @@
 # SM Tawhid - Applied AI Portfolio
 
 ## About Me
-I am an Applied AI student specializing in Computer Vision, Deep Learning, and Robotics.
-This portfolio highlights selected projects that demonstrate my ability to build AI models, design intelligent agents, and work with modern machine learning tools such as YOLO, PyTorch, OpenCV, and symbolic math systems.
+I am an Applied AI student at Houston Community College, specializing in computer vision, deep learning, and robotics. My work focuses on developing practical AI solutions, ranging from rule-based math tutoring agents to real-time object detection systems using YOLO and applied computer vision techniques.
 
-My work focuses on clarity, practicality, and solving real-world problems using beginner-friendly but effective AI approaches.
+This portfolio represents my learning journey through the AI & Robotics program, highlighting hands-on projects that demonstrate my ability to analyze problems, design AI workflows, and build functional machine learning prototypes. I am continually working to expand my skills in model development, data processing, and embedded AI applications.
 
 ## Technical Skills
 - Computer Vision: OpenCV, YOLOv8, image preprocessing
